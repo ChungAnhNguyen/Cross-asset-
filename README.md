@@ -1,33 +1,63 @@
 # Cross-Assets-Solutions
 
-
 ## 📝 Description
 
-Ce projet présente une **solution d’investissement active** dédiée à un **fonds de rotation sectorielle** sur l’univers du **STOXX600**. L’objectif est de générer de l’**alpha** à travers une gestion dynamique et structurée de l’allocation sectorielle, en combinant **trois niveaux complémentaires d’allocations**.
+This project presents an **active investment solution** designed for a **sector rotation fund** within the **STOXX600 universe**. The objective is to generate **alpha** through a dynamic and structured management of sector allocation, by combining **three complementary allocation layers**.
 
 ---
 
-## 🎯 Objectif
+## 🎯 Objective
 
-Mettre en œuvre une **stratégie d’allocation multi-niveaux** capable de capter des opportunités de marché à différentes échelles temporelles et économiques, tout en optimisant le couple rendement/risque.
-
----
-
-## 🧩 Structure de la stratégie
-
-### 1. Allocation Stratégique (Long Terme)
-- **Approche :** Optimisation de portefeuille via la méthode **MaxSharpe**.
-- **But :** Identifier les **secteurs gagnants sur le long terme**.
-- **Données utilisées :** Historique de performances et de **corrélations sectorielles**.
-
-### 2. Allocation Tactique (Macro-économique)
-- **Approche :** Ajustement en fonction des **cycles économiques**.
-- **Facteurs considérés :** Croissance, inflation, taux d’intérêt, etc.
-- **But :** Profiter des **dynamiques macroéconomiques** pour surpondérer/sous-pondérer certains secteurs.
-
-### 3. Allocation Dynamique (Market Timing)
-- **Approche :** Stratégie de **momentum** à fréquence plus élevée.
-- **But :** S’adapter aux tendances de marché de court à moyen terme.
+Implement a **multi-layer allocation strategy** capable of capturing market opportunities across different time horizons and economic environments, while optimizing the risk-return trade-off.
 
 ---
 
+## 🧩 Strategy Structure
+
+### 1. Strategic Allocation (Long-Term)
+- **Approach:** Portfolio optimization using the **Max Sharpe** method  
+- **Goal:** Identify **long-term winning sectors**  
+- **Data used:** Historical performance and **sector correlations**
+
+### 2. Tactical Allocation (Macroeconomic)
+- **Approach:** Adjustments based on **economic cycles**  
+- **Factors considered:** Growth, inflation, interest rates, etc.  
+- **Goal:** Take advantage of **macroeconomic dynamics** by overweighting or underweighting certain sectors  
+
+### 3. Dynamic Allocation (Market Timing)
+- **Approach:** Higher-frequency **momentum strategy**  
+- **Goal:** Adapt to short- to medium-term market trends  
+
+---
+
+## 🚀 Key Features
+
+- Multi-layer allocation framework  
+- Combination of **quantitative optimization** and **macro signals**  
+- Integration of **momentum-based strategies**  
+- Focus on **risk-adjusted performance (Sharpe ratio)**  
+
+---
+
+## 📊 Universe
+
+- **Index:** STOXX Europe 600  
+- **Assets:** Sector indices / ETFs representing major European industries  
+
+---
+
+## ⚙️ Methodology
+
+1. Build a long-term optimized portfolio (Max Sharpe)  
+2. Adjust weights using macroeconomic indicators  
+3. Apply momentum overlay for dynamic rebalancing  
+
+---
+
+## 📈 Expected Outcome
+
+- Enhanced **alpha generation**  
+- Improved **diversification**  
+- Better **adaptability** to market regimes  
+
+---
